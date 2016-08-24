@@ -12,6 +12,7 @@
 사번:<input type="text" name="no">
 이름:<input type="text" name="name">
 <input type="submit">
+<!-- 'or 1=1--' sqlinjection 공격 -->
 </form>
 </body>
 </html>
