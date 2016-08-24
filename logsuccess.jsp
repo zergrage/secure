@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>인증된 페이지</h2>
-<%String name=(String)session.getAttribute("nameKey"); %>
-<%= name %>님 환영합니다!
+<h1>인증된 페이지</h1>
+<% String name = (String)session.getAttribute("namekey");%>
+<%=name %>님 환영합니다<p>
 <a href="logout.jsp">로그아웃</a>
 </body>
 </html>

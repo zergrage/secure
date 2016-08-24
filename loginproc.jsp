@@ -1,3 +1,4 @@
+<%@page import="pack.MemberDao"%>
 <%@page import="sun.security.jgss.spi.MechanismFactory"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -7,8 +8,8 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<jsp:useBean id="md" class="pack.MemberDao"></jsp:useBean>
 <body>
+<jsp:useBean id="md" class="pack.MemberDao"></jsp:useBean>
 <%
 request.setCharacterEncoding("utf-8");
 String no= request.getParameter("no");

@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-로그인실패
-<input type="button" value="재도전" onclick="history.back()">
+로그인 실패!!<p>
+<input type="button" value="재도전" onclick="history.back()"> 
 </body>
 </html>
