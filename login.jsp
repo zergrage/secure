@@ -8,11 +8,11 @@
 </head>
 <body>
 <form action="loginproc.jsp" method="post">
-*로그인*<p>
-사번: <input type="text" name="no"><br>
-이름: <input type="text" name="name"><p>
+로그인 <p>
+사번:<input type="text" name="no">
+이름:<input type="text" name="name">
 <input type="submit">
-
+<!-- 'or 1=1--' sqlinjection 공격 -->
 </form>
 </body>
 </html>

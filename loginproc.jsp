@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <%@page import="pack.MemberDao"%>
+=======
+<%@page import="sun.security.jgss.spi.MechanismFactory"%>
+>>>>>>> refs/remotes/TigerWest/master
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -11,11 +15,11 @@
 <jsp:useBean id="md" class="pack.MemberDao"></jsp:useBean>
 <%
 request.setCharacterEncoding("utf-8");
-String no = request.getParameter("no");
-String name = request.getParameter("name");
-boolean check = md.loginCheck(no, name);
+String no= request.getParameter("no");
+String name=request.getParameter("name");
+boolean check=md.loginCheck(no,name);
 if(check){
-	session.setAttribute("namekey", name);
+	session.setAttribute("nameKey", name);
 	response.sendRedirect("logsuccess.jsp");
 }else{
 	response.sendRedirect("logerr.jsp");
