@@ -11,7 +11,13 @@
 <%
 request.setCharacterEncoding("utf-8");
 String name=request.getParameter("name");
-
+//<문자를 &lt로 교체하라
+if(name!=null){
+	name=name.replaceAll("<","&lt;");
+	name=name.replaceAll(">","&gt;");
+}else{
+	return;
+}
 %>
 이름은<%=name%>
 </body>
