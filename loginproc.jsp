@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 <%@page import="pack.MemberDao"%>
-=======
 <%@page import="sun.security.jgss.spi.MechanismFactory"%>
->>>>>>> refs/remotes/TigerWest/master
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
