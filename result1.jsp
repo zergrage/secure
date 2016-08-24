@@ -17,7 +17,10 @@ if(name!=null){
 	name=name.replaceAll(">","&gt;");
 }else{
 	return;
+	
 }
+
+//<script>location.href="http://daum.net";</script>
 %>
 이름은<%=name%>
 </body>
